@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\code\\botconductor-nlu\\models\\phrases\\model_20190508-223643\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\code\\botconductor-nlu\\models\\phrases\\model_20190508-223643\\component_5_EmbeddingIntentClassifier.ckpt"
