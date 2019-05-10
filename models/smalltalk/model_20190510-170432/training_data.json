@@ -768,46 +768,6 @@
           }
         ],
         "text": "name Sanjay"
-      },
-      {
-        "intent": "phrase",
-        "text": "Can you tell me a phrase?"
-      },
-      {
-        "intent": "phrase",
-        "text": "I would like to hear a phrase"
-      },
-      {
-        "intent": "phrase",
-        "text": "Tell me a phrase"
-      },
-      {
-        "intent": "phrase",
-        "text": "A phrase please"
-      },
-      {
-        "intent": "phrase",
-        "text": "Tell me a phrase please"
-      },
-      {
-        "intent": "phrase",
-        "text": "I would like to hear a phrase"
-      },
-      {
-        "intent": "phrase",
-        "text": "I would loke to hear a phrase, please"
-      },
-      {
-        "intent": "phrase",
-        "text": "Can you tell phrases?"
-      },
-      {
-        "intent": "phrase",
-        "text": "Please tell me a phrase"
-      },
-      {
-        "intent": "phrase",
-        "text": "I need to hear a phrase"
       }
     ],
     "regex_features": [],

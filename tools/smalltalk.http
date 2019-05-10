@@ -1,0 +1,10 @@
+@apiendpoint = http://localhost:5000
+
+###Send the message to rasa to parse and extract intent & entitiy 
+POST {{apiendpoint}}/parse HTTP/1.1
+Content-Type: application/json
+
+{
+    "q": "hi",
+    "project": "smalltalk"
+}

@@ -1,0 +1,94 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "phrase",
+        "text": "Can you tell me a phrase?"
+      },
+      {
+        "intent": "phrase",
+        "text": "I would like to hear a phrase"
+      },
+      {
+        "intent": "phrase",
+        "text": "Tell me a phrase"
+      },
+      {
+        "intent": "phrase",
+        "text": "A phrase please"
+      },
+      {
+        "intent": "phrase",
+        "text": "Tell me a phrase please"
+      },
+      {
+        "intent": "phrase",
+        "text": "I would like to hear a phrase"
+      },
+      {
+        "intent": "phrase",
+        "text": "I would loke to hear a phrase, please"
+      },
+      {
+        "intent": "phrase",
+        "text": "Can you tell phrases?"
+      },
+      {
+        "intent": "phrase",
+        "text": "Please tell me a phrase"
+      },
+      {
+        "intent": "phrase",
+        "text": "I need to hear a phrase"
+      },
+      {
+        "intent": "phrase",
+        "text": "Share a random phrase"
+      },
+      {
+        "intent": "phrase",
+        "entities": [
+          {
+            "start": 13,
+            "end": 14,
+            "value": "2",
+            "entity": "phrasecount"
+          }
+        ],
+        "text": "Share random 2 phrase"
+      },
+      {
+        "intent": "phrase",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "3",
+            "entity": "phrasecount"
+          }
+        ],
+        "text": "3 phrase"
+      },
+      {
+        "intent": "phrase",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "phrasecount"
+          }
+        ],
+        "text": "5 random phrase"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "phrasecount",
+        "pattern": "[0-9]{1}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
